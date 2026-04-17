@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adarsh Singh - Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 10pt;
+      color: #000;
+      background: #fff;
+      padding: 0.4in 0.65in;
+      max-width: 8.5in;
+      margin: 0 auto;
+      line-height: 1.25;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 7px;
+    }
+
+    .header h1 {
+      font-size: 20pt;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+
+    .header p {
+      font-size: 10pt;
+      margin-bottom: 2px;
+    }
+
+    /* Section */
+    .section {
+      margin-top: 12px;
+    }
+
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #000;
+      padding-bottom: 1px;
+      margin-bottom: 5px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Summary */
+    .summary p {
+      text-align: justify;
+      font-size: 10.5pt;
+    }
+
+    /* Skills */
+    .skills p {
+      margin-bottom: 2px;
+      font-size: 10.5pt;
+    }
+
+    .skills p span {
+      font-weight: bold;
+    }
+
+    /* Experience */
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    .exp-title {
+      font-size: 10.5pt;
+      font-weight: bold;
+    }
+
+    .exp-date {
+      font-style: italic;
+      font-size: 10.5pt;
+      white-space: nowrap;
+    }
+
+    .exp-company {
+      font-size: 10.5pt;
+      margin-bottom: 4px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 4px;
+    }
+
+    ul li {
+      font-size: 10.5pt;
+      margin-bottom: 1px;
+      list-style-type: disc;
+    }
+
+    /* Projects */
+    .project-name {
+      font-weight: bold;
+      font-size: 10.5pt;
+      margin-top: 5px;
+      margin-bottom: 1px;
+    }
+
+    /* Education */
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .edu-row span {
+      font-size: 10.5pt;
+    }
+
+    .edu-row .edu-year {
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+    /* Languages */
+    .languages p {
+      font-size: 10.5pt;
+    }
+
+    @media print {
+      body {
+        padding: 0.4in 0.5in;
+      }
+
+      @page {
+        size: A4;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Adarsh Singh</h1>
+    <p>9554583564 &nbsp;|&nbsp; adarshsinghgkp3564@gmail.com</p>
+  </div>
+
+  <!-- Professional Summary -->
+  <div class="section summary">
+    <div class="section-title">Professional Summary</div>
+    <p>Frontend Developer with hands-on internship experience in building scalable web applications using React.js.
+      Skilled in API integration, responsive UI development, and dashboard creation. Proficient in leveraging AI pair-programming tools (Antigravity, Claude, ChatGPT, Codex) to accelerate development and deliver robust solutions. Experience working on real-world
+      systems including vehicle management and tracking solutions. Familiar with backend integration using Supabase and
+      Firebase.</p>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section skills">
+    <div class="section-title">Technical Skills</div>
+    <p><span>Frontend:</span> React.js, JavaScript (ES6+), HTML5, CSS3</p>
+    <p><span>State Management:</span> Redux</p>
+    <p><span>Backend Basics:</span> Supabase (PostgreSQL), Firebase</p>
+    <p><span>AI &amp; Pair Programming:</span> Antigravity, Claude, ChatGPT, Codex, Prompt Engineering</p>
+    <p><span>Tools &amp; Others:</span> Git, VS Code, REST APIs, Responsive Design, Performance Optimization</p>
+  </div>
+
+  <!-- Professional Experience -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <div class="exp-header">
+      <div class="exp-title">Associate Frontend Developer</div>
+      <div class="exp-date">Apr 2026 – Present</div>
+    </div>
+    <div class="exp-company">WEVOIS LABS PVT. LTD.</div>
+    <ul>
+      <li>Promoted from intern to full-time Associate Frontend Developer based on performance.</li>
+      <li>Continued development and enhancement of web applications using React.js.</li>
+      <li>Taking ownership of frontend modules and collaborating with cross-functional teams.</li>
+    </ul>
+
+    <div class="exp-header" style="margin-top: 12px;">
+      <div class="exp-title">Frontend Developer Intern</div>
+      <div class="exp-date">Jan 2026 – Apr 2026</div>
+    </div>
+    <div class="exp-company">WEVOIS LABS PVT. LTD.</div>
+    <ul>
+      <li>Developed and maintained web applications using React.js.</li>
+      <li>Built a Vehicle Management System for tracking vehicle usage and operational data.</li>
+      <li>Implemented tracking features using third-party APIs for real-time status updates.</li>
+      <li>Designed interactive dashboards for monitoring system data.</li>
+      <li>Integrated REST APIs and optimized data handling for better performance.</li>
+      <li>Assisted in backend integration using Supabase for authentication and real-time data.</li>
+      <li>Collaborated with team members in a remote Agile environment.</li>
+    </ul>
+  </div>
+
+  <!-- Projects -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <div class="project-name">Vehicle Management System</div>
+    <ul>
+      <li>Developed features to track vehicle usage, maintenance schedules, and activity.</li>
+      <li>Integrated real-time tracking using third-party APIs.</li>
+      <li>Created dashboards for monitoring operational data.</li>
+    </ul>
+
+    <div class="project-name">Office Management Portal</div>
+    <ul>
+      <li>Built a system to manage employee data and attendance.</li>
+      <li>Improved internal workflow by automating administrative tasks.</li>
+    </ul>
+
+    <div class="project-name">Field Employee Tracking Application</div>
+    <ul>
+      <li>Implemented location tracking using external APIs.</li>
+      <li>Managed real-time data using Supabase.</li>
+      <li>Built responsive UI for tracking and monitoring.</li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="edu-row">
+      <span><strong>Bachelor of Technology (B.Tech)</strong> – Abdul Kalam Technical University</span>
+      <span class="edu-year">2022 – 2026 &nbsp;|&nbsp; CGPA: 7.2</span>
+    </div>
+    <div class="edu-row">
+      <span>12th (Intermediate)</span>
+      <span class="edu-year">70%</span>
+    </div>
+    <div class="edu-row">
+      <span>10th</span>
+      <span class="edu-year">82%</span>
+    </div>
+  </div>
+
+  <!-- Languages -->
+  <div class="section languages">
+    <div class="section-title">Languages</div>
+    <p>Hindi &nbsp;|&nbsp; English</p>
+  </div>
+
+</body>
+</html>
